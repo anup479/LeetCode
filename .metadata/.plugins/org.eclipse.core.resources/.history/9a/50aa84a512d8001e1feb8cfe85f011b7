@@ -1,0 +1,13 @@
+package com.javaconceptOfday;
+
+public class Reverse {
+
+	public static String rev(String name) {
+
+		return "";
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

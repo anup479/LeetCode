@@ -1,0 +1,9 @@
+package com.nt.arrays;
+
+public class ReverseArray {
+
+	public static void reverseA(int[] num) {
+
+	}
+
+}

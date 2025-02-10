@@ -1,0 +1,25 @@
+package com.nt.arrays;
+
+public class MinumumValue {
+
+	public static int Min(int[] num) {
+
+		int min = 0;
+
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] < min) {
+
+				min = num[i];
+			}
+		}
+
+		return min;
+	}
+
+	public static void main(String[] args) {
+
+		int num[] = { 10, 20, 30, 40, 50, 60 };
+
+	}
+}

@@ -1,0 +1,16 @@
+package com.nt.collections;
+
+import java.util.HashMap;
+
+public class Hash_map {
+
+	public static void main(String[] args) {
+
+		// creating an empty hashmap .
+		HashMap<Integer, String> hMap = new HashMap<Integer, String>();
+
+		hMap.put(1, "hardwork");
+
+	}
+
+}

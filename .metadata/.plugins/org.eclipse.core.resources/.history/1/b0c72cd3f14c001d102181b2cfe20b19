@@ -1,0 +1,19 @@
+package com.nt.collections;
+
+public class Duplicate_words_in_String {
+
+	public void duplicateWords(String inputWord) {
+
+		// Splitting input String into words
+		
+		String[] words= inputWord.split("");
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

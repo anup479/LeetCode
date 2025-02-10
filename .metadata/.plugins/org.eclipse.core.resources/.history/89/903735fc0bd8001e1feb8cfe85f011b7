@@ -1,0 +1,21 @@
+package com.javaconceptOfday;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DuplicatesINString {
+
+	public static void dupli(String name) {
+		// butter
+		Map<Character, Integer> hMap = new HashMap<>();
+		char[] charArray = name.toCharArray();
+		for (char cc : charArray) {
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

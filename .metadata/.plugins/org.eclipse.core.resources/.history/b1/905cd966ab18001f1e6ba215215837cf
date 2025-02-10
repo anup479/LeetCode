@@ -1,0 +1,44 @@
+package com.nt.arrays;
+
+import java.util.Arrays;
+
+public class RemoveEvenIntergers {
+
+	public static int[] removeEven(int[] num) {
+
+		int odd = 0;
+
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] % 2 == 0) {
+
+				odd++;
+			}
+
+		}
+
+		int[] result = new int[odd];
+
+		int idx = 0;
+
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] % 2 != 0) {
+
+				result[idx] = num[i];
+				idx++
+
+			}
+
+		}
+
+		return result;
+	}
+
+	public static void main(String[] args) {
+		int[] arr = { 10, 20, 30, 40, 50, 60, 70 };
+		int result[] = removeEven(arr);
+		System.out.println(Arrays.toString(result));
+
+	}
+}

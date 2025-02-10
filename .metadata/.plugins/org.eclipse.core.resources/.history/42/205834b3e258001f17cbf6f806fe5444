@@ -1,0 +1,21 @@
+package com.nt.coreJava;
+
+public class A {
+
+	// how to reverse the program ..
+	public static void main(String[] args) {
+
+		// count characters , expect space
+
+		String string = "The best of the worlds ";
+
+		int count;
+		for (int i = 0; i < string.length(); i++) {
+			if (string.charAt(i) != '') 
+				count++;
+			
+		}
+
+	}
+
+}

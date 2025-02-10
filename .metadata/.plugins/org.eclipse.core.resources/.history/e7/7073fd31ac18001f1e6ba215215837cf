@@ -1,0 +1,13 @@
+package com.nt.arrays;
+
+public class ReverseArray {
+
+	public static void reverseA(int[] num) {
+
+		for (int i = num.length; i == 0; i--) {
+
+		}
+
+	}
+
+}

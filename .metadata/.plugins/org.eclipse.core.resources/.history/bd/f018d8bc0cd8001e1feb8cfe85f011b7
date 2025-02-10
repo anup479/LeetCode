@@ -1,0 +1,26 @@
+package com.javaconceptOfday;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DuplicatesINString {
+
+	public static void dupli(String name) {
+		// butter
+		Map<Character, Integer> hMap = new HashMap<>();
+		char[] charArray = name.toCharArray();
+		for (char c : charArray) {
+
+			// if its present in the hasHmap
+			hMap.put(c, hMap.get(c) + 1);
+		}else {
+			hMap.put(cc, 1);
+		}
+
+	}
+	// getting a set containing all keys of charCountMap
+
+	public static void main(String[] args) {
+
+	}
+}

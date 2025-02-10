@@ -1,0 +1,11 @@
+package com.nt.leetCode.youtube.easy;
+
+public class MergeSortArray {
+
+	public void merge(int [] num1,int num2,int m,int n)
+
+	public static void main(String[] args) {
+
+	}
+
+}

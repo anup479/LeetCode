@@ -1,0 +1,9 @@
+package com.nt.leet75;
+
+public class MeargeStringAlternatively {
+	public string mergeAlternately(string word1, string word2) {
+		return "";
+
+	}
+
+}

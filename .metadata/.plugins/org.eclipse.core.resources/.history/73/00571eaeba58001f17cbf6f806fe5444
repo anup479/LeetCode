@@ -1,0 +1,33 @@
+package com.nt.core;
+
+// check equalities of two programs ..
+
+public class D {
+
+	public static boolean eq(int[] a, int[] b) {
+
+		boolean bb = true;
+
+		if (a.length == b.length) {
+			for (int i = 0; i < a.length; i++) {
+				if (a[i] != b[i]) {
+					bb = false;
+				} else {
+					bb = true;
+				}
+			}
+
+		}
+		return bb;
+
+	}
+
+	public static void main(String[] args) {
+
+		int a[] = { 10, 20, 30, 40, 50 };
+		int b[] = { 10, 20, 30, 40, 50 };
+
+		System.out.println(eq(a, b));
+
+	}
+}

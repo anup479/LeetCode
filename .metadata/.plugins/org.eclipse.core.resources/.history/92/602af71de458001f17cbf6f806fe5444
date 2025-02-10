@@ -1,0 +1,8 @@
+package com.nt.coreJava;
+
+public class A {
+	public static void main(String[] args) {
+		String name = "Hello , this is a simple Match problem";
+
+	}
+}

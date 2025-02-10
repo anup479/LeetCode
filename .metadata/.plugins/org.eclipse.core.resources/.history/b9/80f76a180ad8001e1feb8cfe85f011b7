@@ -1,0 +1,15 @@
+package com.javaconceptOfday;
+
+public class DuplicatesINString {
+
+	public static int dupli(String name) {
+// butter 
+		char[] charArray = name.toCharArray();
+
+		return 1;
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;s2&apos; from expression &apos;s&apos;&#x0D;&#x0A;- Original project: &apos;StringsLogical&apos;&#x0D;&#x0A;- Variable name: &apos;s2&apos;&#x0D;&#x0A;- Destination method: &apos;com.nt.java.Reverse.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;s&apos;" description="Extract local variable &apos;s2&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.nt.java{Reverse.java" name="s2" replace="false" selection="129 0" stamp="1677435377845" varType="false" version="1.0"/>
+</session>

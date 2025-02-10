@@ -1,0 +1,18 @@
+package com.nt.core;
+
+public class ReverseStrin {
+
+	public static String name(String nam) {
+
+		if ((null == nam || nam.length() <= 1)) {
+			return nam;
+		}
+		return name(nam.substring(1)) + nam.charAt(0);
+	}
+
+	public static void main(String[] args) {
+		String s = "hello world";
+		name(s);
+
+	}
+}

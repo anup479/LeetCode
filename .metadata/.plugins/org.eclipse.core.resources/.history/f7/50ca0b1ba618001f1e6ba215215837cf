@@ -1,0 +1,12 @@
+package com.nt.arrays;
+
+public class RemoveEvenIntergers {
+
+	public static int[] removeEven(int[] num) {
+
+		int odd = 0;
+
+		return "";
+	}
+
+}

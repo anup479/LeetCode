@@ -1,0 +1,20 @@
+package com.nt.leetCode75;
+
+//Input: word1 = "abc", word2 = "pqr"
+//Output: "apbqcr"
+
+public class Merge {
+
+	public static String mergee(String s1, String s2) {
+
+		// now u cannot alter in String to create Stringg buffer
+
+		StringBuffer sb = new StringBuffer();
+		int start = 0;
+		int s1_len = s1.length() - 1;
+		int s2_len = s2.length() - 1;
+
+		return s1;
+	}
+
+}

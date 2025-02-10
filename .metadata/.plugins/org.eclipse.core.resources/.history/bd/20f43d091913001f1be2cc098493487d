@@ -1,0 +1,9 @@
+package com.nt.arrays;
+
+public class TwoSeums {
+
+	public static int[] two_sum(int[] num, int target) {
+
+	}
+
+}

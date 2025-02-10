@@ -1,0 +1,27 @@
+package com.nt.collections;
+
+import java.util.HashMap;
+
+public class Duplicate_words_in_String {
+
+	public void duplicateWords(String inputWord) {
+
+		// Splitting input String into words
+
+		String[] words = inputWord.split("");
+
+		// creating one hashmap with words as key and their count as values.
+
+		HashMap<String, Integer> wordCount = new HashMap<String, Integer>();
+
+		// checking each word
+
+		for (String word : words) {
+
+			// weather it is present in the word count .
+
+		}
+
+	}
+
+}

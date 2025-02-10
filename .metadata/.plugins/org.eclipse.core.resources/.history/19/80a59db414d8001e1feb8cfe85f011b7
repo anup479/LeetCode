@@ -1,0 +1,9 @@
+package com.javaconceptOfday;
+
+public class Anagram {
+
+	public static void Ana(String name) {
+
+	}
+
+}

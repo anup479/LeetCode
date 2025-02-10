@@ -1,0 +1,35 @@
+package com.nt.core;
+
+public class PairSum {
+
+	// should pair the sum ...!
+
+	// int a[]={10,20,30,40,50,60} num=30
+
+	public static void pair(int a[], int num) {
+
+		int low = 0;
+		int high = a.length - 1;
+
+		while (low < high) {
+			if (a[low] + a[high] > num) {
+				high--;
+			} else if (a[low] + a[high] < num) {
+				low++;
+			} else if (a[low] + a[high] == num) {
+				System.out.println("pair " + a[low] + "," + a[high] + "");
+				low++;
+				//high--;
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+		int a[] = { 0, 10, 20, 30, 40, 50, 60 };
+		int num = 60;
+
+		pair(a, num);
+
+	}
+}

@@ -1,0 +1,9 @@
+package com.nt.collections;
+
+public class Hash_map {
+
+	public static void main(String[] args) {
+
+	}
+
+}

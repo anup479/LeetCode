@@ -1,0 +1,50 @@
+package com.nt.core;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class Repeat {
+
+	public static void Repeated_words(String name) {
+// create the hashMap
+
+		LinkedHashMap<Character, Integer> hMap = new LinkedHashMap<Character, Integer>();
+
+		// convert in to charArray
+		char[] cs = name.toCharArray();
+
+		// iterate the cs..
+		for (char c : cs) {
+// insert and check if its there in the HasHMap
+			if (hMap.containsKey(c)) {
+				hMap.put(c, hMap.get(c) + 1);
+			} else {
+				hMap.put(c, 1);
+			}
+
+		}
+// now iterate the valuse.
+		for (char cccc : cs) {
+			if (hMap.get(cccc) == 1) {
+				System.out.println(" First non repeted values are " + cccc);
+				break;
+			}
+		}
+
+		// now the repeted characters
+
+		for (char c : cs) {
+			if (hMap.get(c) > 1) {
+				System.out.println(" repetead characters are :" + c);
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		Repeated_words("Hello world ");
+		// Repeated_words("Hard Work,Hard work");
+
+	}
+}

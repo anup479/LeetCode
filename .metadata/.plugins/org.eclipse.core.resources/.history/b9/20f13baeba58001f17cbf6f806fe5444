@@ -1,0 +1,55 @@
+package com.nt.core;
+
+import java.util.HashMap;
+import java.util.Set;
+
+// how to count occurence of each String in java .
+public class Dad {
+
+	// count the occurence of each character in the String ...
+	// we can do that only using HashMap.
+
+	public static void count(String name) {
+
+		// create Hash map .
+
+		HashMap<Character, Integer> hMap = new HashMap<Character, Integer>();
+
+		// conver the String in to char ..
+
+		char[] charArray = name.toCharArray();
+
+		for (char c : charArray) {
+			if (hMap.containsKey(c)) {
+				hMap.put(c, hMap.put(c, c + 1));
+			} else {
+				hMap.put(c, 1);
+			}
+
+		}
+		// System.out.println("count occurence of values " + hMap);
+// getting the values of all the String in the value .
+		Set<Character> keySet = hMap.keySet();
+
+		// set will elemenate all the duplicates .
+
+		System.out.println("duplicates characters in the String " + name);
+
+		// iterate throught Set .
+
+		for (Character cc : keySet) {
+			if (hMap.get(cc) > 1) {
+				// print its values .
+				System.out.println(cc + " " + hMap.get(cc));
+			}
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		count("Hhhhhhello world");
+		count("I was rude");
+	}
+}

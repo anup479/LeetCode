@@ -1,0 +1,21 @@
+package com.nt.arrays;
+
+import java.util.HashMap;
+
+public class TwoSeums {
+
+	public static int[] two_sum(int[] num, int target) {
+
+		HashMap<Integer, Integer> hm = new HashMap<>();
+
+		for (int i = 0; i < num.length; i++) {
+
+		}
+
+		return "";
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

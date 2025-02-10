@@ -1,0 +1,52 @@
+package com.nt.core;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class ReverseString {
+
+	public static void Duplicates(String name) {
+
+		// comvert that in to chart array
+
+		char[] charArray = name.toCharArray();
+
+		// create hashmap to remove duplicates using key and value pair
+
+		HashMap<Character, Integer> hashMap = new HashMap<>();
+
+		// iterate for loop using
+
+		for (Character c : charArray) {
+// check if charArray contains in hashMap/
+			if (hashMap.containsKey(c)) {
+				hashMap.put(c, hashMap.get(c + 1));
+
+			} else {
+				hashMap.put(c, 1);
+			}
+		}
+// create HashSet to iterate 
+
+		Set<Character> keySet = hashMap.keySet();
+
+	}
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 4; i++) {
+
+			for (int j = 4; j >= 1; j--) {
+
+				if (j < 1) {
+					System.out.println(" ");
+				} else {
+					System.out.println("*");
+				}
+				System.out.println("");
+			}
+
+		}
+
+	}
+}

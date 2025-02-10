@@ -1,0 +1,13 @@
+package com.javaconceptOfday;
+
+public class DuplicatesINString {
+
+	public static int dupli(String name) {
+
+		return 1;
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,37 @@
+package com.nt.core;
+
+import java.util.HashMap;
+
+// count the repetative Numbers in an Array .
+
+public class AA {
+
+	public static void RepetaiveNumbers(int[] number) {
+		// use hashMap/
+
+		HashMap<Integer, Integer> hMap = new HashMap<Integer, Integer>();
+
+		// iterate the value .
+
+		for (int i : number) {
+			// now insert in to hashmap
+			if (hMap.containsKey(i)) {
+
+				hMap.put(i, hMap.get(i) + 2);
+			} else {
+				hMap.put(i, 1);
+			}
+
+		}
+
+		System.out.println(" how to bring the repetative numbers " + hMap);
+
+	}
+
+	public static void main(String[] args) {
+
+		int i[] = { 12, 22, 10, 22, 23, 24 };
+		RepetaiveNumbers(i);
+
+	}
+}

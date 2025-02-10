@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.nt.oneOneZero&apos; to &apos;com.nt.oneOneZero.Day_1&apos;&#x0D;&#x0A;- Original project: &apos;JavaConceptOfTheDay&apos;&#x0D;&#x0A;- Original element: &apos;JavaConceptOfTheDay/src/com.nt.oneOneZero&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaConceptOfTheDay/src/com.nt.oneOneZero.Day_1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.nt.oneOneZero&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.nt.oneOneZero" name="com.nt.oneOneZero.Day_1" qualified="false" references="true" stamp="1736099937353" textual="false" version="1.0"/>
+</session>

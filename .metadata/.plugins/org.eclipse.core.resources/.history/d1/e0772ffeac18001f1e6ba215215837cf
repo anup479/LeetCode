@@ -1,0 +1,11 @@
+package com.nt.arrays;
+
+public class MinumumValue {
+
+	public static int Min(int []) {
+		
+		
+		return 1;
+	}
+	
+}

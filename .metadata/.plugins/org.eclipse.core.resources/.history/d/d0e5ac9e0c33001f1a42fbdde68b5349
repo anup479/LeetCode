@@ -1,0 +1,15 @@
+package com.nt.leet75;
+
+public class MeargeStringAlternatively {
+//	Input: word1 = "abc", word2 = "pqr"
+	// Output: "apbqcr"
+	public String mergeAlternately(String word1, String word2) {
+
+		// create String Buffer
+		StringBuilder sb = new StringBuilder();
+
+		return "";
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.nt.collections.Duplicate.java&apos; to &apos;RainStorm.java&apos;&#x0D;&#x0A;- Original project: &apos;CollectionsLogical&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.collections.Duplicate.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.collections.RainStorm.java&apos;" description="Rename compilation unit &apos;Duplicate.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.nt.collections{Duplicate.java" name="RainStorm.java" references="false" stamp="1667759325597" version="1.0"/>
+</session>

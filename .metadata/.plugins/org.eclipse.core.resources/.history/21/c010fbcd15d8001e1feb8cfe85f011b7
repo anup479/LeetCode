@@ -1,0 +1,20 @@
+package com.javaconceptOfday;
+
+public class Anagram {
+
+	public static void Ana(String name) {
+
+		String copy_1 = name.replaceAll("//s", "");
+
+		String copy_2 = name.replaceAll("//s", "");
+
+		// initially status as true ..2
+
+		boolean status = true;
+
+		if (copy_1.length() != copy_2.length()) {
+			status = false;
+		}
+	}
+
+}

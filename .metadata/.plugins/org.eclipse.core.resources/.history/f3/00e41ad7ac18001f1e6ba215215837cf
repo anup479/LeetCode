@@ -1,0 +1,21 @@
+package com.nt.arrays;
+
+public class MinumumValue {
+
+	public static int findMinium(int[] num) {
+
+		int min = num[0];
+		for (int i = 0; i < num.length; i++) {
+
+			if (num[i] < min) {
+				min = num[i];
+			}
+		}
+		return min;
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
